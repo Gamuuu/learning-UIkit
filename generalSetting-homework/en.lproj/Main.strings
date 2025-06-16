@@ -1,0 +1,15 @@
+
+/* Class = "UINavigationItem"; title = "Setting"; ObjectID = "G1h-tS-sIv"; */
+"G1h-tS-sIv.title" = "Setting";
+
+/* Class = "UINavigationItem"; title = "Title"; ObjectID = "MTT-cx-JiF"; */
+"MTT-cx-JiF.title" = "Title";
+
+/* Class = "UIBarButtonItem"; title = "Settings"; ObjectID = "ghS-Fa-hry"; */
+"ghS-Fa-hry.title" = "Settings";
+
+/* Class = "UIButton"; configuration.title = "Button"; ObjectID = "k49-E9-wWU"; */
+"k49-E9-wWU.configuration.title" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "k49-E9-wWU"; */
+"k49-E9-wWU.normalTitle" = "Button";

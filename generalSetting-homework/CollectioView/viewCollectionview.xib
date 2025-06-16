@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23727" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23721"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="collectionViewContent" customModule="generalSetting_homework" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="120" height="130"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="square.and.arrow.up.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="iOD-Ad-IL9">
+                    <rect key="frame" x="5" y="4.6666666666666643" width="50" height="50.333333333333336"/>
+                    <color key="backgroundColor" systemColor="systemRedColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="1sq-E4-gNb"/>
+                        <constraint firstAttribute="width" constant="50" id="aCg-Lw-2Mm"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t8Q-6v-jZZ">
+                    <rect key="frame" x="20" y="60" width="100" height="50"/>
+                    <color key="backgroundColor" systemColor="systemGreenColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="Jhs-m8-jS8"/>
+                        <constraint firstAttribute="width" constant="100" id="TNv-0E-7SB"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                    <color key="textColor" systemColor="systemPinkColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="iOD-Ad-IL9" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="5" id="8ou-ub-TUt"/>
+                <constraint firstItem="iOD-Ad-IL9" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="5" id="Diq-gg-I8r"/>
+                <constraint firstItem="t8Q-6v-jZZ" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="dMa-Zg-PEr"/>
+                <constraint firstItem="t8Q-6v-jZZ" firstAttribute="top" secondItem="iOD-Ad-IL9" secondAttribute="bottom" constant="5" id="eX2-50-Bux"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="t8Q-6v-jZZ" secondAttribute="trailing" id="zhX-jo-9ye"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="imageView" destination="iOD-Ad-IL9" id="u5h-U0-lcX"/>
+                <outlet property="label" destination="t8Q-6v-jZZ" id="trF-PV-L4N"/>
+            </connections>
+            <point key="canvasLocation" x="-91.603053435114504" y="-266.90140845070425"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="square.and.arrow.up.fill" catalog="system" width="117" height="128"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemPinkColor">
+            <color red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

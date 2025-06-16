@@ -30,7 +30,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		C529FA9D2DF2CB5C00BBFA67 /* Exceptions for "generalSetting-homework" folder in "generalSetting-homework" target */ = {
+		C57050572DFBF879000FD913 /* Exceptions for "generalSetting-homework" folder in "generalSetting-homework" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
@@ -40,14 +40,6 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		C529FA772DF2CB5A00BBFA67 /* generalSetting-homework */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				C529FA9D2DF2CB5C00BBFA67 /* Exceptions for "generalSetting-homework" folder in "generalSetting-homework" target */,
-			);
-			path = "generalSetting-homework";
-			sourceTree = "<group>";
-		};
 		C529FA8E2DF2CB5C00BBFA67 /* generalSetting-homeworkTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = "generalSetting-homeworkTests";
@@ -56,6 +48,14 @@
 		C529FA982DF2CB5C00BBFA67 /* generalSetting-homeworkUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = "generalSetting-homeworkUITests";
+			sourceTree = "<group>";
+		};
+		C570504D2DFBF879000FD913 /* generalSetting-homework */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				C57050572DFBF879000FD913 /* Exceptions for "generalSetting-homework" folder in "generalSetting-homework" target */,
+			);
+			path = "generalSetting-homework";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -88,7 +88,7 @@
 		C529FA6C2DF2CB5A00BBFA67 = {
 			isa = PBXGroup;
 			children = (
-				C529FA772DF2CB5A00BBFA67 /* generalSetting-homework */,
+				C570504D2DFBF879000FD913 /* generalSetting-homework */,
 				C529FA8E2DF2CB5C00BBFA67 /* generalSetting-homeworkTests */,
 				C529FA982DF2CB5C00BBFA67 /* generalSetting-homeworkUITests */,
 				C529FA762DF2CB5A00BBFA67 /* Products */,
@@ -121,7 +121,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				C529FA772DF2CB5A00BBFA67 /* generalSetting-homework */,
+				C570504D2DFBF879000FD913 /* generalSetting-homework */,
 			);
 			name = "generalSetting-homework";
 			packageProductDependencies = (
